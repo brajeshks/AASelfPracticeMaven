@@ -9,7 +9,7 @@ public class SampleClass {
 	@Test
 	public void sampleTest() {
 		WebDriver driver= new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().minimize();
 		driver.get("https://www.google.com/");
 		System.out.println(driver.getTitle());
 	}
