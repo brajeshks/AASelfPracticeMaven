@@ -1,0 +1,5 @@
+package genericUtility;
+
+interface ITestListener {
+
+}
