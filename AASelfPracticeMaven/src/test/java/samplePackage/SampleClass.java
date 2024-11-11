@@ -11,8 +11,10 @@ public class SampleClass {
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().minimize();
 		driver.get("https://www.google.com/");
+
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
-		
+		driver.quit();
+
 	}
 }
